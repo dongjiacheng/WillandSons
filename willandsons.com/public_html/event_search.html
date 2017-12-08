@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>CS:GO Data Digest</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+	</head>
+	<body>
+
+		<!-- HEADER -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- LOGO -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/csgo_logo.jpg" alt="" /></span>
+							<h1 id="title">CS:GO Data Digest</h1>
+							<p>by Will &amp; His Sons</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="home.html" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home Page</span></a></li>
+								<li><a href="data.html" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-search">Data Search</span></a></li>
+								<li><a href="login/login.php" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Join / Login</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="https://www.facebook.com/CounterStrike" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="https://twitter.com/csgo_dev" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.twitch.tv/directory/game/csgo" class="icon fa-twitch"><span class="label">Twitch</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<h2 class="alt"><strong>Event Search</strong></h2>
+								<p>Browse through the stats of every player.</p>
+							</header>
+<!--
+							<form>
+									<input type="text" placeholder="Enter player name..." required>
+									<input type="button" id='searchButton' value="Search">
+							</form>
+
+-->
+								<!---->
+
+						
+ <form action="event_main.php" method="get">
+                <p>Name:
+                        <input type="text" placeholder= "Enter event name"  name="Name"/>
+                </p>
+
+                 <p>Location:
+                        <input type="text" placeholder ="Do u know where does it happen?" name="Location"/>
+                </p>
+
+                 <p>ID:
+                        <input type="text" placeholder = "Direct way maybe ?" name="ID"/>
+                </p>
+
+                <p>Date:
+                        <input type="text" placeholder = "Date in format month/day/year Like 9/13/12"  name="Date"/>
+                </p>
+
+
+
+                 <p>Mode:
+                        <select name="Mode">
+                            <option value="0">searchEventbyName</option>
+                            <option value="1">searchEventbyDate</option>
+                            <option value="2">searchEventbyLocation</option>
+                            <option value="3">searchEventbyID</option>
+                            <option value="4">insertEvent</option>
+                            <option value="5">deleteEventbyID</option>
+		            <option value="6">updateEvent</option>
+                        </select>
+                </p>
+
+                <input type="submit" value="submit"/>
+        </form>
+
+
+
+
+
+
+
+		<!---->
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Will &amp; His Sons, Inc.</li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
